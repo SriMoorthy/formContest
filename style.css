@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.employee details{
+    display: flex;
+}
+
+input{
+    background-color: black;
+    border: 1px solid white;
+    margin-right: 50px;
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+label{
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin-right: 7px;
+}
+
+h1{
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#add{
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+}
+
+#message{
+    margin-top: 20px;
+}
+
+.success{
+    color: #43FF78;
+}
+
+.error{
+    color: #FF4343;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#ans{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.delete-button{
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    border-style: none;
+    align-items: center;
+}
